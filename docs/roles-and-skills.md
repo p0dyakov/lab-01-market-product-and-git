@@ -41,6 +41,8 @@
 
 ## Roles and responsibilities
 
+The following are five key roles in the Telegram architecture, along with their primary responsibilities and how they contribute to the system's development and maintenance.
+
 ### 1. Backend Engineer
 
 Backend engineers develop and maintain the core server-side logic and business logic of the application. For Telegram, they are responsible for implementing message handling, authentication flows, media processing, and service APIs. They write code in languages like C++, Python, or Go, design database schemas, optimize query performance, and ensure services can handle millions of concurrent users. They collaborate with DevOps engineers to deploy services and with QA to fix bugs.
@@ -62,6 +64,8 @@ Database engineers specialize in designing, optimizing, and maintaining database
 System architects design the overall structure and high-level design of the system. For Telegram, they decide on architectural patterns (microservices, event-driven architecture), choose technologies and frameworks, design how services communicate with each other, and plan for scalability and fault tolerance. They create architectural diagrams, document design decisions, and provide guidance to the development team on how to implement features within the system.
 
 ## Common skills across roles
+
+Building and maintaining a system like Telegram requires a broad set of technical skills that are shared across multiple roles. These skills span programming languages, distributed systems design, infrastructure management, and security practices.
 
 ### Programming Languages
 - C++ (core Telegram server implementation)

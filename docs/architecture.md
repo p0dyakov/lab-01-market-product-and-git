@@ -1,5 +1,4 @@
 # Telegram Architecture
-
 ## Product Choice
 
 **Product Name:** Telegram

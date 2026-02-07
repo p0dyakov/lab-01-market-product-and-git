@@ -127,3 +127,98 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Design patterns and SOLID principles
 - Documentation and technical writing
 - Agile/Scrum methodologies
+
+
+## My chosen role
+
+### Role
+
+Flutter Developer (Senior-track)
+
+### Skills I already have
+<!-- from roadmap.sh -->
+- Dart (async/await, Futures, Streams, collections)
+- Flutter core (Stateless/Stateful widgets, InheritedWidget, responsive UI)
+- State management: BLoC / Cubit, Provider, Riverpod
+- Clean Architecture, SOLID, MVVM
+- REST API, JSON, WebSocket
+- Firebase (Auth, Firestore, Storage, Push Notifications)
+- App analytics and monitoring (Firebase Analytics, Mixpanel, Sentry)
+- Local storage (Drift, Hive)
+- Navigation (AutoRoute, GoRouter)
+- CI/CD (GitHub Actions, Codemagic)
+- App Store & Google Play publishing
+- Performance optimization (startup time, API optimization, rebuild control)
+- Testing (unit, widget; coverage via CodeCov)
+- Git, GitFlow, code reviews
+- Technical documentation (GitHub Wiki, dartdoc)
+- Cross-platform development (iOS, Android, Web, macOS)
+
+### Skills I clearly lack
+- Native development (Swift/Objective-C, Kotlin/Java)
+- Advanced platform channels and native plugin authoring
+- Low-level profiling (GPU, frame pipeline, memory leak analysis)
+
+---
+
+## Job market snapshot
+### Analyzed job postings
+
+1. **Flutter Developer** — Red  
+   https://innopolis.hh.ru/vacancy/130001157  
+   Key skills:
+   - Flutter, Dart
+   - BLoC, Clean Architecture, SOLID
+   - REST API, Firebase
+   - Performance optimization  
+
+2. **Senior Flutter Developer** — Effective  
+   https://innopolis.hh.ru/vacancy/130229113  
+   Key skills:
+   - Deep Flutter & Dart internals
+   - Event loop, isolates, UI update mechanisms
+   - BLoC/Cubit, Provider
+   - Architecture and performance profiling  
+
+3. **Flutter Developer (Middle)** — A3F Group  
+   https://innopolis.hh.ru/vacancy/130216699  
+   Key skills:
+   - Flutter, Dart
+   - REST API integration
+   - State management (Bloc / Provider / Riverpod)
+   - App Store / Google Play releases  
+
+4. **Senior Flutter Developer** — Точка Знаний  
+   https://innopolis.hh.ru/vacancy/130131691  
+   Key skills:
+   - Flutter (mobile + web)
+   - Clean Architecture, SOLID
+   - REST API, WebSocket
+   - Testing and Git workflows  
+
+5. **Mobile Flutter Developer** — Ай-Теко  
+   https://innopolis.hh.ru/vacancy/130198227  
+   Key skills:
+   - Flutter iOS/Android
+   - BLoC, Clean Architecture
+   - Firebase, Push notifications
+   - App performance optimization  
+
+### Skills that appear in several postings
+- Flutter + Dart (commercial experience)
+- State management (BLoC / Provider / Riverpod)
+- Clean Architecture, SOLID
+- REST API integration
+- Performance optimization
+- App Store / Google Play delivery
+
+### Skills specific to a single posting
+- Deep Flutter internals and Dart VM (Effective)
+- Flutter Web in production (Точка Знаний)
+- Analytics systems like AppMetrica (Ай-Теко)
+- Maps, geolocation, payments (product roles)
+
+---
+
+## Personal reflection
+I chose the Flutter Developer role because I already have more than four years of commercial Flutter experience and previously worked in the same role at Red, which matches the current market expectations for Middle and Senior positions. My background includes building and scaling real production apps, leading Flutter development as a Tech Lead, and setting up CI/CD, analytics, testing, and architecture from scratch. When comparing my skillset to the job market, I match most common requirements, including architecture, state management, performance optimization, and release processes. However, Senior-level postings consistently emphasize deeper knowledge of Flutter internals and the Dart runtime, which I currently lack. I also have limited experience with native iOS and Android development, which becomes critical when debugging complex platform issues. I want to focus on understanding Flutter’s rendering pipeline and Dart VM behavior, as well as gaining hands-on experience with native platform code and platform channels. These skills directly address the main gap between my current level and a strong Senior Flutter Engineer.

@@ -1,4 +1,5 @@
 # Roles and Skills in Telegram Architecture
+
 ## Components and roles
 
 - **MTProto Gateway (DC Entry)**
@@ -67,12 +68,14 @@ System architects design the overall structure and high-level design of the syst
 Building and maintaining a system like Telegram requires a broad set of technical skills that are shared across multiple roles. These skills span programming languages, distributed systems design, infrastructure management, and security practices.
 
 ### Programming Languages
+
 - C++ (core Telegram server implementation)
 - Python (scripting, automation, backend services)
 - Go (microservices, high concurrency)
 - Java (backend services, distributed systems)
 
 ### Distributed Systems & Architecture
+
 - Microservices architecture
 - Event-driven architecture
 - Message queues (Kafka, RabbitMQ)
@@ -82,6 +85,7 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Consistency models (eventual consistency, strong consistency)
 
 ### Databases & Storage
+
 - Relational databases (PostgreSQL)
 - NoSQL databases (Redis, Cassandra)
 - Database optimization and indexing
@@ -89,6 +93,7 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Distributed file systems (HDFS, S3)
 
 ### Infrastructure & DevOps
+
 - Containerization (Docker)
 - Container orchestration (Kubernetes)
 - Cloud platforms (AWS, Google Cloud, Azure)
@@ -97,6 +102,7 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Monitoring and logging (Prometheus, Grafana, ELK stack)
 
 ### Security & Cryptography
+
 - Encryption algorithms (AES, RSA)
 - TLS/SSL protocols
 - Authentication mechanisms (OAuth, JWT, session-based)
@@ -105,6 +111,7 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Data privacy and compliance (GDPR, CCPA)
 
 ### Communication Protocols & Networking
+
 - TCP/UDP and IP networking
 - HTTP/HTTPS and WebSocket
 - MTProto (Telegram's custom protocol)
@@ -113,6 +120,7 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Obfuscation techniques for network traffic
 
 ### Performance & Optimization
+
 - Caching strategies (Redis, in-memory caches)
 - Query optimization
 - Horizontal and vertical scaling
@@ -121,6 +129,7 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Load testing and capacity planning
 
 ### Software Development Practices
+
 - Version control (Git)
 - Code review and testing
 - Unit testing, integration testing, system testing
@@ -156,6 +165,7 @@ Flutter Developer (Senior-track)
 - Cross-platform development (iOS, Android, Web, macOS)
 
 ### Skills I clearly lack
+
 - Native development (Swift/Objective-C, Kotlin/Java)
 - Advanced platform channels and native plugin authoring
 - Low-level profiling (GPU, frame pipeline, memory leak analysis)
@@ -207,6 +217,7 @@ To understand the current market demand for my chosen role, I analyzed several j
    - App performance optimization  
 
 ### Skills that appear in several postings
+
 - Flutter + Dart (commercial experience)
 - State management (BLoC / Provider / Riverpod)
 - Clean Architecture, SOLID
@@ -215,6 +226,7 @@ To understand the current market demand for my chosen role, I analyzed several j
 - App Store / Google Play delivery
 
 ### Skills specific to a single posting
+
 - Deep Flutter internals and Dart VM (Effective)
 - Flutter Web in production (Точка Знаний)
 - Analytics systems like AppMetrica (Ай-Теко)

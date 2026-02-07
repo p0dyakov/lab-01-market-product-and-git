@@ -1,8 +1,9 @@
 # Telegram Architecture
+
 ## Product Choice
 
 **Product Name:** Telegram
-**Website:** https://telegram.org
+**Website:** [https://telegram.org](https://telegram.org)
 
 **Description:** Telegram is a cloud-based messaging application that provides instant messaging, voice and video calls, media sharing, and group communication features. It focuses on speed, security, and privacy, supporting both regular chats and end-to-end encrypted secret chats.
 
@@ -17,6 +18,7 @@ Telegram's architecture consists of several key components organized in layers. 
 **PlantUML Source:** [Telegram Component Diagram Code](diagrams/src/telegram/component-diagram.puml)
 
 ### Component Descriptions
+
 1. **MTProto Gateway (DC Entry)** - The connection manager that serves as the entry point for all client connections. It handles incoming MTProto protocol requests from mobile apps, desktop apps, and web clients, routing them to the appropriate backend services using internal RPC calls.
 2. **Auth & Session Service** - Manages user authentication, session validation, and SMS-based login verification. It validates client sessions before allowing access to other services and integrates with external SMS providers to handle phone number verification during registration.
 3. **Message Handling Service** - The core service responsible for processing, storing, and retrieving messages. It persists messages to the database, maintains message sequence numbers (pts), and publishes message events to the event bus for asynchronous propagation to other users.
@@ -66,11 +68,13 @@ Telegram's infrastructure is organized across multiple tiers:
 - **External Ecosystem:** External SMS providers handle phone verification, and push services (FCM/APNs) deliver notifications to mobile devices.
 
 ## Assumptions
+
 1. **I assume the Message Service uses optimistic locking with sequence numbers (pts) to prevent duplicate message deliveries and maintain message ordering consistency across distributed replicas.**
 2. **I assume the MTProto Gateway maintains persistent TCP connections with clients or implements a connection pooling mechanism to efficiently handle millions of concurrent users while minimizing resource overhead.**
 3. **I assume the Distributed File System implements content-addressed storage (content deduplication) to optimize storage costs when multiple users share the same media file (e.g., popular stickers or shared documents).**
 
 ## Open questions
+
 1. **How does Telegram handle the consistency model when a user is connected to multiple devices? Are all devices guaranteed to receive messages in the same order, or are there potential race conditions?**
 2. **What specific database sharding strategy is used for the Sharded Chat DB? Is it sharded by user ID, by chat ID, or by some other key, and how are resharding operations handled during growth?**
 3. **How does the system handle secret chat synchronization across devices? Are secret chats accessible from multiple devices of the same user, and if so, how are encryption keys distributed securely?**

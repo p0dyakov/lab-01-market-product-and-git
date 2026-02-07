@@ -10,11 +10,13 @@
 
 ## Main components
 
+Telegram's architecture consists of several key components organized in layers. Below is the component diagram showing how these services interact, followed by descriptions of the major components.
+
 ### Component Diagram
 
 ![Telegram Component Diagram](diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
-**PlantUML Source:** [Telegram Component Diagram Code](../diagrams/src/telegram/component-diagram.puml)
+**PlantUML Source:** [Telegram Component Diagram Code](diagrams/src/telegram/component-diagram.puml)
 
 ### Component Descriptions
 1. **MTProto Gateway (DC Entry)** - The connection manager that serves as the entry point for all client connections. It handles incoming MTProto protocol requests from mobile apps, desktop apps, and web clients, routing them to the appropriate backend services using internal RPC calls.
@@ -26,11 +28,13 @@
 
 ## Data flow
 
+The data flow illustrates how different components interact when users send and receive messages. The sequence diagram below shows the message delivery process, including upload, send request, propagation, and delivery to recipients.
+
 ### Sequence Diagram
 
 ![Telegram Sequence Diagram](diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
-**PlantUML Source:** [Telegram Sequence Diagram Code](../diagrams/src/telegram/sequence-diagram.puml)
+**PlantUML Source:** [Telegram Sequence Diagram Code](diagrams/src/telegram/sequence-diagram.puml)
 
 ### Event Propagation (Fan-out) Flow
 
@@ -45,11 +49,13 @@ The "Event Propagation (Fan-out)" flow (Step 3) demonstrates how messages reach 
 
 ## Deployment
 
+Telegram's services are deployed across a distributed infrastructure spanning multiple data centers and cloud regions. The deployment diagram below shows how components are organized across different nodes and clusters.
+
 ### Deployment Diagram
 
 ![Telegram Deployment Diagram](diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
-**PlantUML Source:** [Telegram Deployment Diagram Code](../diagrams/src/telegram/deployment-diagram.puml)
+**PlantUML Source:** [Telegram Deployment Diagram Code](diagrams/src/telegram/deployment-diagram.puml)
 
 ### Deployment Description
 

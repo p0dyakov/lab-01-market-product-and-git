@@ -2,7 +2,6 @@
 ## Product Choice
 
 **Product Name:** Telegram
-
 **Website:** https://telegram.org
 
 **Description:** Telegram is a cloud-based messaging application that provides instant messaging, voice and video calls, media sharing, and group communication features. It focuses on speed, security, and privacy, supporting both regular chats and end-to-end encrypted secret chats.

@@ -1,5 +1,4 @@
 # Roles and Skills in Telegram Architecture
-
 ## Components and roles
 
 - **MTProto Gateway (DC Entry)**

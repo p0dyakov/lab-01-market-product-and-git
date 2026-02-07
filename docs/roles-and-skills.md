@@ -167,7 +167,7 @@ To understand the current market demand for my chosen role, I analyzed several j
 ### Analyzed job postings
 
 1. **Flutter Developer** — Red  
-   https://innopolis.hh.ru/vacancy/130001157  
+   [Link](https://innopolis.hh.ru/vacancy/130001157)  
    Key skills:
    - Flutter, Dart
    - BLoC, Clean Architecture, SOLID
@@ -175,7 +175,7 @@ To understand the current market demand for my chosen role, I analyzed several j
    - Performance optimization  
 
 2. **Senior Flutter Developer** — Effective  
-   https://innopolis.hh.ru/vacancy/130229113  
+   [Link](https://innopolis.hh.ru/vacancy/130229113)  
    Key skills:
    - Deep Flutter & Dart internals
    - Event loop, isolates, UI update mechanisms
@@ -183,7 +183,7 @@ To understand the current market demand for my chosen role, I analyzed several j
    - Architecture and performance profiling  
 
 3. **Flutter Developer (Middle)** — A3F Group  
-   https://innopolis.hh.ru/vacancy/130216699  
+   [Link](https://innopolis.hh.ru/vacancy/130216699)  
    Key skills:
    - Flutter, Dart
    - REST API integration
@@ -191,7 +191,7 @@ To understand the current market demand for my chosen role, I analyzed several j
    - App Store / Google Play releases  
 
 4. **Senior Flutter Developer** — Точка Знаний  
-   https://innopolis.hh.ru/vacancy/130131691  
+   [Link](https://innopolis.hh.ru/vacancy/130131691)  
    Key skills:
    - Flutter (mobile + web)
    - Clean Architecture, SOLID
@@ -199,7 +199,7 @@ To understand the current market demand for my chosen role, I analyzed several j
    - Testing and Git workflows  
 
 5. **Mobile Flutter Developer** — Ай-Теко  
-   https://innopolis.hh.ru/vacancy/130198227  
+   [Link](https://innopolis.hh.ru/vacancy/130198227)  
    Key skills:
    - Flutter iOS/Android
    - BLoC, Clean Architecture

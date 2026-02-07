@@ -128,8 +128,9 @@ Building and maintaining a system like Telegram requires a broad set of technica
 - Documentation and technical writing
 - Agile/Scrum methodologies
 
-
 ## My chosen role
+
+Based on my experience and interests, I have chosen a specific role in the software engineering landscape. Below are the details of my chosen role, the skills I currently possess, and the areas where I need further development.
 
 ### Role
 
@@ -159,9 +160,10 @@ Flutter Developer (Senior-track)
 - Advanced platform channels and native plugin authoring
 - Low-level profiling (GPU, frame pipeline, memory leak analysis)
 
----
-
 ## Job market snapshot
+
+To understand the current market demand for my chosen role, I analyzed several job postings from HH.ru and similar job platforms. This analysis reveals the most common skills required and niche skills specific to certain positions.
+
 ### Analyzed job postings
 
 1. **Flutter Developer** — Red  
@@ -218,7 +220,8 @@ Flutter Developer (Senior-track)
 - Analytics systems like AppMetrica (Ай-Теко)
 - Maps, geolocation, payments (product roles)
 
----
-
 ## Personal reflection
+
+After analyzing the market and comparing my skills against industry expectations, here are my reflections on this journey:
+
 I chose the Flutter Developer role because I already have more than four years of commercial Flutter experience and previously worked in the same role at Red, which matches the current market expectations for Middle and Senior positions. My background includes building and scaling real production apps, leading Flutter development as a Tech Lead, and setting up CI/CD, analytics, testing, and architecture from scratch. When comparing my skillset to the job market, I match most common requirements, including architecture, state management, performance optimization, and release processes. However, Senior-level postings consistently emphasize deeper knowledge of Flutter internals and the Dart runtime, which I currently lack. I also have limited experience with native iOS and Android development, which becomes critical when debugging complex platform issues. I want to focus on understanding Flutter’s rendering pipeline and Dart VM behavior, as well as gaining hands-on experience with native platform code and platform channels. These skills directly address the main gap between my current level and a strong Senior Flutter Engineer.
